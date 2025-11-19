@@ -15,7 +15,7 @@ st.markdown(hide_sidebar_nav, unsafe_allow_html=True)
 
 #Sidebar chính edit đẹp
 st.sidebar.header('Menu')
-st.sidebar.page_link('Bai_tap_2.py', label= 'Điều hướng')
+st.sidebar.page_link('app.py', label= 'Điều hướng')
 st.sidebar.page_link('pages/bieu_do.py', label= 'Biểu đồ')
 st.sidebar.page_link('pages/nguoi_dung.py', label= 'Người dùng')
 st.sidebar.page_link('pages/bt_menu.py', label='Menu chọn đồ ăn')
